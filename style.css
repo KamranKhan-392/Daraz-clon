@@ -1,0 +1,373 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+   
+
+}
+.nav-bar{
+  width: 100vw;
+  height: 120px;
+  background-color: #F85606;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  
+  
+  
+}
+.nav{
+     display: flex;
+     justify-content: right;
+     gap: 50px;
+     font-size: 12px;
+     padding-right: 20px;
+
+}
+.nav a{
+    padding-top: 10px;
+   text-decoration: none;
+   color: white;
+   
+}
+ 
+/* css for logo search and icons */
+ 
+.nav2{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.logo{
+    width: 10VW; 
+     
+}
+.logo img{
+    height: 50px;
+    width: 150px;
+   
+
+}
+.sarche{
+     
+    width: 60vw;
+    display: flex;
+    align-items: center;
+   margin-left: 100px;
+    
+}
+.sarche input{
+    width: 55vw;
+    height: 40px;
+}
+.sarche img{
+   
+    height: 40px;
+}
+.sicon{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE1D2;
+}
+.carticon{
+    margin-left: 30px;
+}
+
+.carticon img{
+    height: 50px;
+    width: 50px;
+    
+}  
+
+/* heroo sectio */
+ .Heroo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Heroo img{
+     width:85%; 
+     height: 500px;
+    padding-top:150px;
+    padding-left: 30px;
+}
+ /* main section */
+ .main{
+    width:100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 850px;
+
+} 
+.main p{
+    color: #F85606;
+}
+.shop{
+    border:2px solid #F85606;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+
+}
+ .shop a{
+    text-decoration: none;
+    color: #F85606;
+    
+ }
+ .pruduct-fire-sc{
+
+      width: 100%;
+      height: 400px;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ .margin{
+    margin: 10px;
+    background-color: #FFFFFF;
+
+    
+    
+ }
+ .margin:hover {
+   border:4px solid  #F5F5F5;
+ }
+ .margin p{
+    color: #F85606;
+    background-color: #FFFFFF;
+ }
+
+ .box1 img{
+    height: 200px;
+    width: 200px;
+
+ } 
+ .box2 img{
+    height: 200px;
+    width: 200px;
+ } 
+ .box3 img{
+    height: 200px;
+    width: 200px;
+ } 
+ .box4 img{
+    height: 200px;
+    width: 200px;
+ } 
+ .box5 img{
+    height: 200px;
+    width: 130px;
+ } 
+ .box6 img{
+    height: 200px;
+    width: 200px;
+ } 
+ 
+ /* product sc2 */
+  .Categories{
+    background-color:#FFFFFF;
+   
+    align-items: center;
+    justify-content: center;
+ }
+
+.pruduct-fire-sc2{
+
+    width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+     
+      padding: 20px;
+     
+}
+  .pruduct-fire-sc3{
+    width: 100%;
+      height: 130px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+
+     
+  }
+
+.boxs{
+    width: 148px;
+    height: 148px;
+   border:1.5px solid #F5F5F5;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.boxs img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+} 
+/* just for you */
+.just-for-u{
+    width: 100%;
+    height: 220px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+ .just-for-u2{
+    width: 100%;
+    height: 220px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+   
+}
+.just-for-u3{
+    margin-top: 60px;
+    width: 100%;
+    height: 220px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+/* contant section1 */
+ .contant1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+   
+}
+.contant1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #84A4B8;
+    
+    border: 2px solid #84A4B8;
+    height: 35px;
+    width: 370px;
+    
+}
+.contant2{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    display: flex;  
+}
+.lest1 h2{ 
+    padding-left: 40px;
+    color: #60136D;
+
+}
+.lest2{
+    margin-left: 70px;
+}
+.lest1 ul{
+    list-style: none;
+    color: #60136D;
+    
+  font-size: 15px;
+
+}
+.lest2 h2{ 
+    padding-left: 40px;
+    color: #60136D;
+
+}
+.lest2 ul{
+    list-style: none;
+    font-size: 15px;
+    color: #60136D;
+  
+
+}
+
+.Drazioc{
+    display: flex;
+    padding-top: 50px;
+    
+   
+    
+}
+.Drazioc img{
+    width: 40px;
+    height: 40px;
+}
+.p{
+    padding-top: 35px;
+    padding-left: 10px;
+    
+}
+.pp{
+    color: #F85606;
+    height: 4px;
+}
+.ppp{
+    color: #60136D;
+    height: 4px;
+    
+}
+.apps{
+    display: flex;
+    padding: 50px;
+    padding-left: 80px;
+}    
+ /* pemetn and very vrification */
+ .py-vrificatin{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    
+ }
+ .pyemen1{
+    display: flex;
+ }
+ .imgep{
+  width: 50px;}
+ .psection{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px 5px;
+    display: flex;
+    gap: 350px;
+    
+    
+ }
+ .psection p{
+    padding-left: 20px;
+ }
+.virification{
+    margin-left:190px;
+}
+
+    
+
+
+
+
+
